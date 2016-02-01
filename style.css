@@ -1,6 +1,7 @@
 body {
 	background-color:  #9400D3 ;
 	font-family: Montserrat;
+	text-align: center;
 }
 h1, h2, h3 {
 font-family: "Montserrat", sans-serif;
@@ -21,7 +22,7 @@ text-decoration: none;
 }
 
 #container {
-width: 500px;
+width: 75%;
 margin: 0 auto;
 text-align: center;
 }
@@ -31,3 +32,49 @@ text-align: center;
 	border-radius: 6px;
     box-shadow: 10px 10px 5px pink;
 }
+.img-circle img{
+	border-radius: 50%;
+	margin-top: 30px;
+	height: 250px;
+}
+.img-touch img {
+	width: 251px;
+}
+button {
+	background-color: pink;
+	padding: 11px;
+	margin-bottom: 5px;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	font-family: Montserrat, sans-serif;
+}
+
+.card ul > li {
+display: inline-block;
+width: 90px;
+padding-left: 0px;
+list-style: none;
+margin: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 8%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: #F0F8FF;
+}
+
+.navbar li {
+    display: block;
+    width: 60px;
+    padding: 10px;
+    margin-left: 15px;
+ 
+}
+
